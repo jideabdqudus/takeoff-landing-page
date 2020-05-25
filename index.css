@@ -15,9 +15,7 @@
 
 .home-main-section .lady-image {
   background-image: url(images/ideatakeoff_2.png);
-  flex-grow: 1;
-  max-height: 70vh;
-  min-width: 30vw;
+  flex-grow: 1;   
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -34,7 +32,7 @@
 
 @media (max-width: 900px) {
   .home-main-section .img-wrapper {
-    display: none;
+    display: inherit;
   }
 
   .home-main-section {
