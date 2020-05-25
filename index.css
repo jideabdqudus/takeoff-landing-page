@@ -14,8 +14,10 @@
 }
 
 .home-main-section .lady-image {
-  background-image: url(images/ideatakeoff_2.png);
-  flex-grow: 1;   
+  background-image: url(images/lauch_landingpage-17.png);
+  flex-grow: 1;
+  max-height: 70vh;
+  min-width: 30vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -52,9 +54,8 @@
 
 .home-page-circle-2 {
   position: absolute;
-  width: 5vw;
-  height: 5vw;
-  border-radius: 100%;
+  width: 30vw;
+  height: 30vw;
   top: 15vh;
   left: 30vw;
   z-index: -1;
